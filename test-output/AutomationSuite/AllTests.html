@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  AllTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AllTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 08 17:00:59 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>102 seconds (102539 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.LoginTest.verifyPasswordField()'><b>verifyPasswordField</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_003 - Verify password field is displayed</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.NavigationTest.verifyNavigation()'><b>verifyNavigation</b><br>Test class: testcases.NavigationTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.NavigationTest@4ee203eb</td></tr>
+<tr>
+<td title='testcases.LoginTest.verifyUsernameField()'><b>verifyUsernameField</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_002 - Verify username field is displayed</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.UITest.verifyUIElements()'><b>verifyUIElements</b><br>Test class: testcases.UITest</td>
+<td></td>
+<td>0</td>
+<td>testcases.UITest@1a5a4e19</td></tr>
+<tr>
+<td title='testcases.SecurityTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: testcases.SecurityTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.SecurityTest@7068e664</td></tr>
+<tr>
+<td title='testcases.PerformanceTest.pageLoadTimeTest()'><b>pageLoadTimeTest</b><br>Test class: testcases.PerformanceTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.PerformanceTest@60db1c0e</td></tr>
+<tr>
+<td title='testcases.LoginTest.verifyLoginButton()'><b>verifyLoginButton</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_004 - Verify login button is displayed</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.LoginTest.invalidCredentialsTest()'><b>invalidCredentialsTest</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_008 - Verify login with both invalid credentials</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.LogoutTest.logoutTest()'><b>logoutTest</b><br>Test class: testcases.LogoutTest</td>
+<td></td>
+<td>1</td>
+<td>testcases.LogoutTest@5c86dbc5</td></tr>
+<tr>
+<td title='testcases.LoginTest.verifyLoginPageDisplayed()'><b>verifyLoginPageDisplayed</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_001 - Verify login page is displayed</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.LoginTest.validLoginTest()'><b>validLoginTest</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_005 - Verify login with valid credentials</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.LoginTest.verifyPasswordEnabled()'><b>verifyPasswordEnabled</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_010 - Verify password field is enabled</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.LoginTest.invalidUsernameTest()'><b>invalidUsernameTest</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_006 - Verify login with invalid username</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.LoginTest.invalidPasswordTest()'><b>invalidPasswordTest</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_007 - Verify login with invalid password</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.LoginTest.verifyLoginButtonEnabled()'><b>verifyLoginButtonEnabled</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_011 - Verify login button is enabled</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.EdgeCaseTest.emptyLoginTest()'><b>emptyLoginTest</b><br>Test class: testcases.EdgeCaseTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.EdgeCaseTest@3e78b6a5</td></tr>
+<tr>
+<td title='testcases.LoginTest.verifyUsernameEnabled()'><b>verifyUsernameEnabled</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_009 - Verify username field is enabled</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.LoginTest.verifyLoginButtonClickable()'><b>verifyLoginButtonClickable</b><br>Test class: testcases.LoginTest<br>Test method: TS_001_TC_LT_012 - Verify login button is clickable</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginTest@f68f0dc</td></tr>
+<tr>
+<td title='testcases.CheckoutTest.verifyCheckout()'><b>verifyCheckout</b><br>Test class: testcases.CheckoutTest<br>Test method: TS_002_TC_CO_002 - Verify checkout with valid details</td>
+<td></td>
+<td>1</td>
+<td>testcases.CheckoutTest@461ad730</td></tr>
+</table><p>
+</body>
+</html>
